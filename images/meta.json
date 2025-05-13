@@ -1,0 +1,62 @@
+{
+    "metadata": {
+        "date_creation": "2024-03-19",
+        "date_mise_a_jour": "2024-03-20",
+        "version": "1.1",
+        "description": "Base d'images pour le projet de débruitage par ACP"
+    },
+    "images": {
+        "train": {
+            "cascade.jpg": {
+                "category": "nature",
+                "description": "Image de cascade d'eau",
+                "format": "jpg",
+                "type": "original",
+                "utilisation": "entrainement"
+            },
+            "fleur.jpg": {
+                "category": "nature",
+                "description": "Image de fleur avec détails fins",
+                "format": "jpg",
+                "type": "original",
+                "utilisation": "entrainement"
+            },
+            "giraffe.jpg": {
+                "category": "animal",
+                "description": "Photo de girafe avec texture naturelle",
+                "format": "jpg",
+                "type": "original",
+                "utilisation": "entrainement"
+            },
+            "zebre.jpg": {
+                "category": "animal",
+                "description": "Photo de zèbre avec motifs contrastés",
+                "format": "jpg",
+                "type": "original",
+                "utilisation": "entrainement"
+            }
+        },
+        "test": {
+            "gravite.jpg": {
+                "category": "scientifique",
+                "description": "Image scientifique sur la gravité",
+                "format": "jpg",
+                "type": "original",
+                "utilisation": "test"
+            },
+            "fille.jpg": {
+                "category": "portrait",
+                "description": "Portrait d'une fille",
+                "format": "jpg",
+                "type": "original",
+                "utilisation": "test"
+            }
+        }
+    },
+    "parametres_bruit": {
+        "gaussian": {
+            "sigma_values": [15, 25, 50],
+            "description": "Bruit gaussien avec différentes intensités"
+        }
+    }
+} 
